@@ -1,1 +1,1 @@
-# Federal Reserve Economic Data Standard and Poors Sectors Dashboard
+# Federal Reserve Economic Data and S&P Sectors Dashboard
