@@ -8,4 +8,5 @@ Project Description: This project focuses on four key time series economic datas
 Data: The two datasets to create the visuals came from https://fred.stlouisfed.org/fred-addin/ for the Federal Reserve portion and https://finance.yahoo.com/ for the S&P sector portion. This data was housed in SQLite.
 
 Dashboard Visuals: The visuals were created using d3 & JavaScript including the jQuery library.
+
 Webpage Access: https://fredticker.herokuapp.com
