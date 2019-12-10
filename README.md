@@ -30,7 +30,7 @@ The visuals were created using d3 & JavaScript including the jQuery library.
 
 (6) Volume is super heavy for the S&P 500 ($SPY) and Financials ($XLF) from late 2007 through late 2011.
 
-![image](https://user-images.githubusercontent.com/51388767/70564376-12880000-1b5e-11ea-9ed4-94988e95b6db.png)
+![image](https://user-images.githubusercontent.com/51388767/70565079-5cbdb100-1b5f-11ea-93dc-65f23688d27e.png)
 
 
 
