@@ -16,7 +16,8 @@ The visuals were created using d3 & JavaScript including the jQuery library.
 
 ![image](https://user-images.githubusercontent.com/51388767/70550447-c4fe9980-1b43-11ea-8d20-0d27b1555a09.png)
 
-![image](https://user-images.githubusercontent.com/51388767/70551065-d005f980-1b44-11ea-8f11-6366c9a506f3.png)
+![image](https://user-images.githubusercontent.com/51388767/70552212-ea40d700-1b46-11ea-804d-d0a6f13d69a7.png)
+
 
 
 
