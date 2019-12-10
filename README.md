@@ -14,5 +14,11 @@ The two datasets to create the visuals came from https://fred.stlouisfed.org/fre
 ## Dashboard Visuals: 
 The visuals were created using d3 & JavaScript including the jQuery library.
 
+
+![image](https://user-images.githubusercontent.com/51388767/70550447-c4fe9980-1b43-11ea-8d20-0d27b1555a09.png)
+
+
+
+
 ## Webpage Access:
 https://fredticker.herokuapp.com
