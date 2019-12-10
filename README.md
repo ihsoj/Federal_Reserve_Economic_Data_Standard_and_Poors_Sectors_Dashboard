@@ -19,8 +19,11 @@ The visuals were created using d3 & JavaScript including the jQuery library.
 
 ## Observable Trends & Conclusions
 (1) The U.S. Unemployment Rate appears to be inversely correlated to the U.S. Case Schiller Home Price Index on a long term trend.
+
 (2) The U.S. Consumer Price Index (CPI), a measure of inflation, typically moves higher annually.
+
 (3) Communication Services ($XLC) has moved steadily higher with CPI over the period analyzed.
+
 (4) U.S. Housing Starts peaked in 2006 preceding the Great Recession and bottomed out in 2009 after it began.
 (5) Financials ($XLF) is closely aligned with U.S. Housing Starts from late 2007 through 2016, but outperformed significantly since 2016.
 (6) Volume is super heavy for the S&P 500 ($SPY) and Financials ($XLF) from late 2007 through late 2011.
