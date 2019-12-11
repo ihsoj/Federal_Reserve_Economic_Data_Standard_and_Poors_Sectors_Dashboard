@@ -17,7 +17,7 @@ The visuals were created using d3 & JavaScript including the jQuery library.
 ![image](https://user-images.githubusercontent.com/51388767/70550447-c4fe9980-1b43-11ea-8d20-0d27b1555a09.png)
 ![image](https://user-images.githubusercontent.com/51388767/70552212-ea40d700-1b46-11ea-804d-d0a6f13d69a7.png)
 
-## Observable Trends & Conclusions
+## Observable Trends & Conclusions:
 (1) The U.S. Unemployment Rate appears to be inversely correlated to the U.S. Case Schiller Home Price Index on a long term trend.
 
 (2) The U.S. Consumer Price Index (CPI), a measure of inflation, typically moves higher annually.
