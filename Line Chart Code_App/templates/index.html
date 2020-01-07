@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Exploration of The S&P</title>
+  	   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+<!-- 
+https://www.itsolutionstuff.com/post/bootstrap-jquery-multiple-select-with-checkboxes-example-using-bootstrap-multiselectjs-pluginexample.html
+http://davidstutz.de/bootstrap-multiselect/ 
+http://bl.ocks.org/DStruths/9c042e3a6b66048b5bd4
+-->
+</head>
+
+
+<body>
+      <div class="jumbotronX" style="text-align:center; width: 100%; background-color: lightgray">
+        <h1>Trends between Broad Economic Data and S&P Sectors</h1>
+      </div>
+  <div class="container-fluid">
+	  
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+			<h2>A Comparison of Various S&P Sectors and The US Housing Starts, Case Schiller Index, CPI, and Unemployment Indexes Over Time</h2>
+			<strong>Sector:</strong>
+			<select id="ticker-checkboxes" multiple="multiple"></select>
+			<strong>FRED:</strong>
+			<select id="fred-checkboxes" multiple="multiple"></select>
+			<!-- <button type="reset" id="example-reset-button" class="btn btn-default">Reset</button> -->
+      </div>
+    </div>	
+    <div class="row">
+      <div class="col-xs-12  col-md-12">
+        <div id="visualization_1" class="visualization"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <h2>A Comparison of monthly % Change Between FRED vs. S&P Sector</h2>
+			<strong>Sector:</strong>
+			<select id="x-checkboxes"></select>
+			<strong>FRED:</strong>
+			<select id="y-checkboxes"></select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-12">
+        <div id="visualization_2" class="visualization"></div>
+      </div>
+    </div><div class="row">
+      <div class="col-xs-12 col-md-12">
+        <h2>Daily Close Price and Volume by S&P Sector</h2>
+			<strong>S&P Sector:</strong>
+			<select id="snp-checkboxes"></select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <div id="visualization_3" class="visualization"></div>
+      </div>
+    </div>
+  </div>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/js/bootstrap-multiselect.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+  
+<script type="text/javascript">
+    $(document).ready(function() {
+		initPage();
+    });
+</script>
+  
+</body>
+</html>

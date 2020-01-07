@@ -1,0 +1,36 @@
+html,
+body {
+  padding: 25;
+  margin: 20;
+  background-color: #9494b8;
+  font-family: arial;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.axis {
+  font-size: 14px;
+}
+
+.trendline {
+  fill: none;
+  stroke-width: 2px;
+}
+
+.visualization {
+  height: 100%;
+  width: calc(100vw - 50);
+  background-color: #d2d2e0;
+  border-style: solid;
+  border-width: 3px;
+  border-bottom-style: outset;
+  border-top-style: outset;
+  border-left-style: outset;
+  border-right-style: outset;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+} 
